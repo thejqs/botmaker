@@ -7,4 +7,6 @@ After I made my first couple Twitter bots, I thought I might like a handy little
 
 Clone the repo, pip install from the reqs.txt file for the dependencies you'll need, and you're on your way.
 
+For a more step-by-step approach as you work through this, check out this useful tutorial: <http://videlais.com/2015/03/02/how-to-create-a-basic-twitterbot-in-python/>
+
 Happy tweeting and, y'know, try to be more funny than evil.
