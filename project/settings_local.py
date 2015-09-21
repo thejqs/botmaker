@@ -1,3 +1,6 @@
+#First thing: Make sure to add this file to your .gitignore 
+# so you don't accidentally make it public
+
 # go get a secret key from, say, http://www.miniwebtool.com/django-secret-key-generator/
 SECRET_KEY = 'PUT IT IN THIS STRING'
 
