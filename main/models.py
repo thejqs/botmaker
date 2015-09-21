@@ -1,12 +1,14 @@
 import os, sys
 from django.db import models
 from django.conf import settings
+# If you haven't done pip install -r reqs.txt,
+# this is where your import will break:
 import tweepy
 # The file where you're stashing all the secret stuff:
 from project.settings_local import auth_settings
 
 
-# If you want to save each in a database:
+# If you want to save each in a database, gonna need something like this:
 class ModelTweet(models.Model):
     # The tweet itself:
     tweet = models.CharField(max_length=140)
@@ -52,3 +54,4 @@ class ModelTweet(models.Model):
         tweet.tweet = your_logic_method
         tweet.tweet_length = len(tweet.tweet)
         tweet.save()
+        
