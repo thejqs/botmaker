@@ -1,4 +1,4 @@
-MAKE A TWITTER BOT AND YOU CAN TOO
+Make a Twitter bot and you can too
 ==================================
 
 Or something like that. 
